@@ -36,7 +36,7 @@
    <p>
     <img src="/cute.jpg" width="420" height="240" />
 </p>
-
+  
   
 </div>
 
