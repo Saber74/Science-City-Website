@@ -10,5 +10,5 @@ who did more work?
 work was 50/50?
 y u never commit?
 here is mr goose
-and ![alt text](https://github.com/Saber74/Saber74.github.io/blob/master/273333_d6a864d4edbe6ffe035f627d270c3f54cc6c5116.jpg_facebook.jpg "Mr goose")
+and ![alt text](Saber74.github.io/273333_d6a864d4edbe6ffe035f627d270c3f54cc6c5116.jpg_facebook.jpg "Mr goose")
 ```
