@@ -7,12 +7,12 @@
   <p>One might wonder why would I create this. That is a question I can not answer</p>
   <p>One might say I over commit, github disagrees</p>
   <p>
-    <img src="Saber74.github.io/Evidence.png" width="220" height="240" />
+    <img src="/Evidence.png" width="220" height="240" />
 </p>
   <p> Hope you git it becuase I don't.</p>
   <p> Here is mr Goose</p>
     <p>
-    <img src="Saber74.github.io/Mrgoose.jpg" width="220" height="240" />
+    <img src="/Mrgoose.jpg" width="220" height="240" />
 </p>
 </body>
 </html>
