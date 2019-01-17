@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>Bio website1</h1>
+<h1>Bio website</h1>
   <p>Welcome to Nizar's Science blog! Stay tuned for my upcoming bioTech update</p>
   <p>One might wonder why would I create this. That is a question I can not answer</p>
   <p>One might say I over commit, github disagrees</p>
