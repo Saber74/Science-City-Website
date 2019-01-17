@@ -28,6 +28,17 @@
     <img src="/Mrgoose.jpg" width="420" height="240" />
 </p>
 </div>
+<div class="w3-container w3-yellow">
+  <h2>Disclaimer</h2>
+  <p>Does this look horribly ugly?</p>
+  <p>Yes, yes it does.</p>
+  <p>Here is a cute animal to cheer us up</p>
+   <p>
+    <img src="/cute.jpg" width="420" height="240" />
+</p>
+  
+  
+</div>
 
 
 </body>
