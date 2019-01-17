@@ -7,7 +7,7 @@
   <p>One might wonder why would I create this. That is a question I can not answer</p>
   <p>One might say I over commit, github disagrees</p>
   <p>
-    <img src="/Evidence.png" width="420" height="240" />
+    <img src="/Evidence.png" width="750" height="200" />
 </p>
   <p> Hope you git it becuase I don't.</p>
   <p> Here is mr Goose</p>
