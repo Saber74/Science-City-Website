@@ -7,7 +7,14 @@ permalink: /index.html
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
 <link rel="stylesheet" href="/Style.css" /> 
 <body>
-<img src="/Main.jpg"/>
+ <div class="container">
+  <img src="/Main.jpg"/ alt="Aurora" style="width:100%;">
+  <div class="bottom-left">Bottom Left</div>
+  <div class="top-left">Top Left</div>
+  <div class="top-right">Top Right</div>
+  <div class="bottom-right">Bottom Right</div>
+  <div class="centered">Centered</div>
+</div> 
 
 <div class="w3-container">
   <h1>Bio website</h1>
