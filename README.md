@@ -7,6 +7,7 @@ permalink: /index.html
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
 <link rel="stylesheet" href="/Style.css" /> 
 <body>
+<img src="/Main.jpg"/>
 
 <div class="w3-container">
   <h1>Bio website</h1>
