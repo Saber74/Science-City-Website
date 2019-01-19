@@ -2,6 +2,26 @@
 permalink: /index.html
 ---
 <!DOCTYPE html>
+<head>
+<style>
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("/Main.jpg");
+
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -13,8 +33,8 @@ permalink: /index.html
 </div>
 
 <div class="w3-container w3-red">
-  <p>One might wonder why would I create this. That is a question I am afraid can not be answered by any human.</p>
-  <p>One might say I over commit, github disagrees</p>
+  <p>One might wonder why would I create this. That is a question I am afraid can not be answered by any human</p>
+  <p>One might say I over commit, github disagrees.</p>
     <p>
     <img src="/Evidence.png" width="750" height="200" />
 </p>
@@ -26,7 +46,7 @@ permalink: /index.html
 <div class="w3-container w3-teal">
   <p> Yet the question remains, is it the value of the commits that matters, or the quantity?</p>
   <p> Hope you git it becuase I don't.</p>
-  <p> Here is mr Goose</p>
+  <p> Here is mr Goose.</p>
     <p>
     <img src="/Mrgoose.jpg" width="420" height="240" />
 </p>
@@ -34,7 +54,7 @@ permalink: /index.html
 <div class="w3-container w3-yellow">
   <h2>Disclaimer</h2>
   <p>Does this look horribly ugly?</p>
-  <p>Yes, yes it does. Ugliest thing I made.</p>
+  <p>Yes, yes it does. Ugliest thing I ever made.</p>
   <p>Here is a cute animal to cheer us up.</p>
    <p>
     <img src="/cute.jpg" width="420" height="240" />
