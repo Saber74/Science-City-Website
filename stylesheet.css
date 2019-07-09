@@ -45,7 +45,7 @@ Dark Yellow - (245, 210, 45)
 #hp a:active {
   background-color: green;
 }
-.center {
+#logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
