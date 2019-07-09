@@ -7,6 +7,9 @@ Dark Yellow - (245, 210, 45)
 */
 
 /* Navigation Bar */
+#nav {
+  background-color: red;
+}
 #nav ul {
   list-style-type: none;
   margin: 0;
@@ -23,10 +26,7 @@ Dark Yellow - (245, 210, 45)
   padding: 14px 16px;
   text-decoration: none;
 }
-#nav a:link, a:visited {
-  background-color: red;
-}
-#nav a:hover, a:active {
+#nav a:hover {
   background-color: #111
 }
 /* Homepage */
