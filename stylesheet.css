@@ -50,3 +50,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.about{
+  display:inline-block;
+  float:left;
+}
