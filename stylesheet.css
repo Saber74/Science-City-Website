@@ -18,7 +18,7 @@ Dark Yellow - (245, 210, 45)
 #nav li {
   float: left;
 }
-#nav a {
+#nav a:link {
   display: block;
   color: blue;
   background-color: red;
