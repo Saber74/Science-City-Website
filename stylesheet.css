@@ -11,7 +11,7 @@ Dark Yellow - (245, 210, 45)
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: red
+  background-color: purple
 }
 #nav li {
   float: left;
@@ -36,7 +36,7 @@ Dark Yellow - (245, 210, 45)
   text-decoration: none;
   display: inline-block;
 }
-div{
+#nav{
   background-color: red
 }
 #hp a:hover{
