@@ -23,7 +23,10 @@ Dark Yellow - (245, 210, 45)
   padding: 14px 16px;
   text-decoration: none;
 }
-#nav a:hover {
+#nav a:link, a:visited {
+  background-color: red;
+}
+#nav a:hover, a:active {
   background-color: #111
 }
 /* Homepage */
