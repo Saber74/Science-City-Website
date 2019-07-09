@@ -26,3 +26,18 @@ Dark Yellow - (245, 210, 45)
 #nav a:hover {
   background-color: #111
 }
+/* Homepage */
+#hp a:link {
+  background-color: hotpink;
+  color: black;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+#hp a:hover{
+  background-color: blue
+}
+#hp a:active {
+  backgroun-color: green;
+}
