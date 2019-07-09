@@ -1,10 +1,31 @@
+/*Logo Colors
+Maple Leaf - (255, 0, 0)
+Molecule Red - (205, 0, 0)
+Molecule Grey - (205, 205, 205)
+Bright Yellow - (255, 240, 45)
+Dark Yellow - (245, 210, 45)
+*/
+
 /* Navigation Bar */
-ul.nav {
+#nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#nav li {
+  display: inline;
+  float: left;
+}
+#nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#nav a:hover {
+  background-color: #111
 }
 
-li.nav {
-  display: inline;
-}
