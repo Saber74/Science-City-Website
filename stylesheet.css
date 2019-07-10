@@ -7,6 +7,9 @@ Dark Yellow - (245, 210, 45)
 */
 
 /* Navigation Bar */
+#nav {
+  backgroud-color: pink;
+}
 #nav ul {
   list-style-type: none;
   margin: 0;
@@ -19,7 +22,6 @@ Dark Yellow - (245, 210, 45)
 #nav a:link {
   display: block;
   color: blue;
-  background-color: red;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
