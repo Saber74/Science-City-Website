@@ -8,22 +8,22 @@ Dark Yellow - (245, 210, 45)
 
 /* Navigation Bar */
 button a:link {
-  list-style-type: none; 
+  list-style-type: none;
   color: white;
   text-decoration: none;
 }
 button a:visited {
-  list-style-type: none; 
+  list-style-type: none;
   color: white;
   text-decoration: none;
 }
 button a:hover {
-  list-style-type: none; 
+  list-style-type: none;
   color: white;
   text-decoration: none;
 }
 button a:active {
-  list-style-type: none; 
+  list-style-type: none;
   color: white;
   text-decoration: none;
 }
@@ -33,7 +33,7 @@ button a:active {
   margin: 25px;
   position:absolute;
   transition: .5s ease;
-  top: 38%;
+  top: 40%;
   right: 40%;
 }
 
@@ -41,7 +41,7 @@ button a:active {
   margin: 25px;
   position:absolute;
   transition: .5s ease;
-  top: 38%;
+  top: 40%;
   right:  50%;
 }
 #about img{
