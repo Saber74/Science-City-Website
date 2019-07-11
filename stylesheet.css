@@ -43,6 +43,9 @@ button a:active {
   background-color: rgb(205,205,205);
   border-color: rgb(205,205,205);
 }
+nav i{
+  color: white;
+}
 /* Home Screen */
 #b1 {
   transform: translateY(45%);
