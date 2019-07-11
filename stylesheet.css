@@ -45,12 +45,15 @@ button a:active {
 }
 /* Home Screen */
 #b1 {
+  transform: translateY(45%);
+  margin: auto;
   position:absolute;
   transition: .5s ease;
   right: 40%;
-
 }
 #b2{
+  transform: translateY(45%);
+  margin: auto;
   position:absolute;
   transition: .5s ease;
   right: 48%;
