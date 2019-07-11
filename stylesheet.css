@@ -55,6 +55,9 @@ nav i:hover {
 	color: #8b0000;
 }
 /* Home Screen */
+#about {
+  background-color: pink;
+}
 #b1 {
   transform: translateY(45%);
   margin: auto;
