@@ -6,53 +6,9 @@ Bright Yellow - (255, 240, 45)
 Dark Yellow - (245, 210, 45)
 */
 
-/* Navigation Bar */
-nav {
-  background-color: pink;
-}
-#nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: purple
-}
-#nav li {
-  float: left;
-}
-#nav a:link {
-  display: block;
-  color: blue;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-#nav a:hover {
-  background-color: #111
-}
 /* Homepage */
-#hp a:link {
-  background-color: hotpink;
-  color: black;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-#nav{
-  background-color: red
-}
-#hp a:hover{
-  background-color: blue
-}
-#hp a:active {
-  background-color: green;
-}
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-#about ul{
-  display:inline-block;
-  float:left;
 }
