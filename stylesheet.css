@@ -31,25 +31,22 @@ button a:active {
 /* Home Screen */
 #b1 {
   display: block;
-  margin: 25px;
   position:absolute;
   transition: .5s ease;
-  top: 35%;
+  margin:10 auto;
   right: 40%;
-  width: 8em
 
 }
 
 #b2{
+  margin:10 auto;
   display: block;
-  margin: 25px;
   position:absolute;
   transition: .5s ease;
-  top: 35%;
-  right:  52%;
-  width: 8em
+  right: 48%;
 }
 #about img{
+  margin:10px;
   max-width:50%;
   height:auto;
   display: block;
