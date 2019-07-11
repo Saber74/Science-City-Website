@@ -30,19 +30,24 @@ button a:active {
 
 /* Home Screen */
 #b1 {
+  display: block;
   margin: 25px;
   position:absolute;
   transition: .5s ease;
   top: 35%;
   right: 40%;
+  width: 8em
+
 }
 
 #b2{
+  display: block;
   margin: 25px;
   position:absolute;
   transition: .5s ease;
   top: 35%;
-  right:  50%;
+  right:  52%;
+  width: 8em
 }
 #about img{
   max-width:50%;
