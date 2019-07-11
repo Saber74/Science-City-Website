@@ -40,20 +40,18 @@ button a:active {
 }
 /* Home Screen */
 #b1 {
-  margin: 25px;
   position:absolute;
   transition: .5s ease;
-  top: 35%;
   right: 40%;
+
 }
 #b2{
-  margin: 25px;
   position:absolute;
   transition: .5s ease;
-  top: 35%;
-  right:  50%;
+  right: 48%;
 }
 #about img{
+  padding-bottom: 50px
   max-width:50%;
   height:auto;
   display: block;
