@@ -34,7 +34,7 @@ nav {
   background-color: hotpink;
   color: black;
   padding: 14px 25px;
-  text-align: center; 
+  text-align: center;
   text-decoration: none;
   display: inline-block;
 }
@@ -52,7 +52,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-ul.about{
+#about ul{
   display:inline-block;
   float:left;
 }
