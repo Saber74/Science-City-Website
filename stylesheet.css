@@ -5,6 +5,29 @@ Molecule Grey - (205, 205, 205)
 Bright Yellow - (255, 240, 45)
 Dark Yellow - (245, 210, 45)
 */
+/* Navigation Bar */
+button a:link {
+  list-style-type: none; 
+  color: white;
+  text-decoration: none;
+}
+button a:visited {
+  list-style-type: none; 
+  color: white;
+  text-decoration: none;
+}
+button a:hover {
+  list-style-type: none; 
+  color: white;
+  text-decoration: none;
+}
+button a:active {
+  list-style-type: none; 
+  color: white;
+  text-decoration: none;
+}
+
+/* Home Screen */
 #b1 {
   position:absolute;
   transition: .5s ease;
