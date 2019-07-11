@@ -44,7 +44,15 @@ button a:active {
   border-color: rgb(205,205,205);
 }
 nav i{
+  position: relative;
+  float: right;
   color: white;
+  padding-top: 10px;
+  margin-right:10px;
+  margin-left: 10px;
+}
+nav i:hover {
+	color: #8b0000;
 }
 /* Home Screen */
 #b1 {
