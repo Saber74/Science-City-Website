@@ -33,7 +33,7 @@ button a:active {
   margin: 25px;
   position:absolute;
   transition: .5s ease;
-  top: 40%;
+  top: 35%;
   right: 40%;
 }
 
@@ -41,7 +41,7 @@ button a:active {
   margin: 25px;
   position:absolute;
   transition: .5s ease;
-  top: 40%;
+  top: 35%;
   right:  50%;
 }
 #about img{
