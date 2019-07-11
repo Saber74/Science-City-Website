@@ -5,6 +5,7 @@ Molecule Grey - (205, 205, 205)
 Bright Yellow - (255, 240, 45)
 Dark Yellow - (245, 210, 45)
 */
+
 /* Navigation Bar */
 button a:link {
   list-style-type: none; 
@@ -29,6 +30,7 @@ button a:active {
 
 /* Home Screen */
 #b1 {
+  margin: 25px;
   position:absolute;
   transition: .5s ease;
   top: 38%;
@@ -36,6 +38,7 @@ button a:active {
 }
 
 #b2{
+  margin: 25px;
   position:absolute;
   transition: .5s ease;
   top: 38%;
