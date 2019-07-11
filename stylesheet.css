@@ -7,6 +7,9 @@ Dark Yellow - (245, 210, 45)
 */
 
 /* Navigation Bar */
+nav {
+  background-color: #D61919;
+}
 button a:link {
   list-style-type: none;
   color: white;
@@ -27,7 +30,14 @@ button a:active {
   color: white;
   text-decoration: none;
 }
-
+.btn-danger {
+  background-color: #D61919;
+  border-color: #D61919;
+}
+.btn-danger:hover {
+  background-color: #8b0000;
+  border-color: #8b0000;
+}
 /* Home Screen */
 #b1 {
   margin: 25px;
@@ -36,7 +46,6 @@ button a:active {
   top: 35%;
   right: 40%;
 }
-
 #b2{
   margin: 25px;
   position:absolute;
@@ -50,4 +59,12 @@ button a:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.btn-outline-danger {
+  color: #000000;
+  border-color: #000000;
+}
+.btn-outline-danger:hover {
+  background-color: #D61919;
+  border-color: #D61919;
 }
