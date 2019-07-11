@@ -1,74 +1,90 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+	<meta name="Canada South Science City" content="Canada South Science City is a registered non-profit interactive science centre located in Windsor, Ontario.">
+	<meta name="keywords" content="science city, windsor, stem, camp, science">
+	<meta name="author" content="Nizar Alrifai, Rahma Gillan">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
- <meta charset="UTF-8">
- <meta name="Canada South Science City" content="Canada South Science City is a registered non-profit interactive science centre located in Windsor, Ontario.">
- <meta name="keywords" content="science city, windsor, stem, camp, science">
- <meta name="author" content="Nizar Alrifai, Rahma Gillan">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Canada South Science City</title>
 
- <title>Canada South Science City</title>
- <link rel="shortcut icon" type="image/x-icon" href="icon.ico">
-
- <link rel="stylesheet" href="stylesheet.css">
-
-</head>
-
-<body lang="en-us">
-
- <!-- Navigation Bar -->
- <nav id="nav">
-  <ul>
-   <li><a href="#about">About us</a></li>
-   <li><a href="#events">Events</a></li>
-   <li><a href="#membership">Membership</a></li>
-   <li><a href="#donate">Donate</a></li>
-   <li><a href="#volunteer">Volunteer</a></li>
-   <li><a href="#partners">Partners</a></li>
-   <li><a href="#contacts">Contact us</a></li>
-  </ul>
- </nav>
- <!--Home screen-->
- <div id="about">
-  <img src="logo.png" alt="CSSC logo" style="width:1000px;height:400px;">
-  <h1> </h1>
-  <ul style="list-style-type:none; display: inline;">
-   <li>Prices and rates:</li>
-   <li>Kids(3-12) $6</li>
-   <li>Seniors(65+)/Youth(13-17)/Students $7</li>
-   <li>Adults(18-65) $8</li>
-  </ul>
-  <ul style="list-style-type:none; display:inline;">
-   <li>Monday: Closed</li>
-   <li>Tuesday: 9:00 am-5:00 pm</li>
-   <li>Wednesday: 9:00 am-5:00 pm</li>
-   <li>Thursday: 9:00 am-5:00 pm</li>
-   <li>Friday: 9:00 am-5:00 pm</li>
-   <li>Saturday: 9:00 am-5:00 pm</li>
-   <li>Sunday: Closed</li>
-  </ul>
-  <h1 id="hp"><a href="#Visit us">Visit us</a></h1>
-  <h1 id="hp"><a href="#Book a tour">Book a tour</a></h1>
- </div>
-<!--Events-->
-<div id="events">
-</div>
-<!--Membership-->
-<div id="membership">
-</div>
-<!--Donate-->
-<div id="donate">
-</div>
-<!--Volunteer-->
-<div id="volunteer">
-  <img src="volunteer.png" alt="volunteer" style="width:940px;height:788px;">
-</div>
-<!--Partners-->
-<div id="partners">
-</div>
-<!--Contact us-->
-<div id="events">
-</div>
-</body>
+	<!-- Bootstrap Links -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	
+	<link rel="stylesheet" href="stylesheet.css">
+  
+  </head>
+    
+  <body lang="en-us">
+	<!-- Navigation Bar -->
+	<nav class="bg-danger">
+	  <div class="btn-group">
+	  <button href="#about" type="button" class="btn btn-danger">About Us</button>
+	    <div class="btn-group"> 
+		  <button href="#events" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Events</button>
+		  <div class="dropdown-menu">
+	        <a class="dropdown-item" href="#daycamp">Summer Day Camp</a>
+	        <a class="dropdown-item" href="#calendar">Calendar</a>
+		  </div>
+	    </div>
+	  <button href="#partners" type="button" class="btn btn-danger">Partners</button>
+	  <button href="#donate" type="button" class="btn btn-danger">Donate</button>
+	  <button href="#volunteer" type="button" class="btn btn-danger">Volunteer</button>
+	  <button href="#membership" type="button" class="btn btn-danger">Membership</button>
+	  <button href="#contact" type="button" class="btn btn-danger">Contact</button>
+	  </div>
+	</nav>
+	<br>
+	<!-- Home Page -->
+	<div id="about">
+	  <img src="logo.png" alt="CSSC logo" style="width:1000px;height:400px;">
+      <ul style="list-style-type:none;">
+        <li>Prices and rates:</li>
+        <li>Kids(3-12) $6</li>
+        <li>Seniors(65+)/Youth(13-17)/Students $7</li>
+        <li>Adults(18-65) $8</li>
+      </ul>
+      <ul style="list-style-type:none; ">
+        <li>Monday: Closed</li>
+        <li>Tuesday: 9:00 am-5:00 pm</li>
+        <li>Wednesday: 9:00 am-5:00 pm</li>
+        <li>Thursday: 9:00 am-5:00 pm</li>
+        <li>Friday: 9:00 am-5:00 pm</li>
+        <li>Saturday: 9:00 am-5:00 pm</li>
+        <li>Sunday: Closed</li>
+      </ul>
+	  <button type="button" class="btn btn-outline-danger">Visit Us</button>
+	  <button type="button" class="btn btn-outline-danger">Book A Tour</button>
+    </div>
+	
+	<!--Events-->
+	<div id="events">
+	</div>
+	
+	<!--Membership-->
+	<div id="membership">
+	</div>
+	
+	<!--Donate-->
+	<div id="donate">
+	</div>
+	
+	<!--Volunteer-->
+	<div id="volunteer">
+	  <img src="volunteer.png" alt="volunteer" style="width:940px;height:788px;">
+	</div>
+	
+	<!--Partners-->
+	<div id="partners">
+	</div>
+	
+	<!--Contact us-->
+	<div id="events">
+	</div>
+	
+  </body>
 </html>
