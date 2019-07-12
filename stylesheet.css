@@ -84,9 +84,8 @@ nav i:hover {
   font-size: 1em;
   text-align: center;
 }
-#homelist1{
-  text-align: left;
-  display:inline;
+.listhp li{
+  text-align: center;
 }
 /* Events */
 #events {
