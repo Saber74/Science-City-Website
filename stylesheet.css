@@ -59,7 +59,6 @@ button a:active {
   border-color: #D61919;
 }
 .parent {
-  padding: 5px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -76,4 +75,13 @@ button a:active {
 #homelist1{
   text-align: left;
   display:inline;
+}
+/* Footer */
+i.f{
+  color: #999998;
+  margin-right:10px;
+  margin-left: 10px;
+}
+i.f:hover {
+	color: #8b0000;
 }
