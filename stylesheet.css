@@ -5,6 +5,9 @@ Molecule Grey - (205, 205, 205)
 Bright Yellow - (255, 240, 45)
 Dark Yellow - (245, 210, 45)
 */
+body{
+  background-image: linear-gradient(to bottom, rgba(26, 188, 156,0.5),rgba(41, 128, 185,0.5),rgba(236, 112, 99,0.5));
+}
 
 /* Navigation Bar */
 nav i{
