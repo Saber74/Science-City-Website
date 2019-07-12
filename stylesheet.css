@@ -40,40 +40,10 @@ button a:active {
   border-color: #8b0000;
 }
 .dropdown-menu {
-  background-color: rgb(205,205,205);
-  border-color: rgb(205,205,205);
+  background-color: rgb(205,205,205)
+  border-color: rgb(205,205,205)
 }
-nav i{
-  position: relative;
-  float: right;
-  color: white;
-  padding-top: 10px;
-  margin-right:10px;
-  margin-left: 10px;
-}
-nav i:hover {
-	color: #8b0000;
-}
-/* Home Screen */
-#about {
-  background-color: #D3D3D3;
-}
-#b1 {
-  transform: translateY(45%);
-  margin: auto;
-  position:absolute;
-  transition: .5s ease;
-  right: 40%;
-}
-#b2{
-  transform: translateY(45%);
-  margin: auto;
-  position:absolute;
-  transition: .5s ease;
-  right: 48%;
-}
-#about img{
-  padding-bottom: 50px
+#aboutimg {
   max-width:50%;
   height:auto;
   display: block;
@@ -87,4 +57,19 @@ nav i:hover {
 .btn-outline-danger:hover {
   background-color: #D61919;
   border-color: #D61919;
+}
+.parent {
+  padding: 5px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+.child {
+  margin: 5px;
+  font-size: 1em;
+  text-align: center;
 }
