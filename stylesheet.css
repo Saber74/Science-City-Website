@@ -7,52 +7,11 @@ Dark Yellow - (245, 210, 45)
 */
 
 /* Navigation Bar */
-nav {
-  background-color: #D61919;
-}
-button a:link {
-  list-style-type: none;
-  color: white;
-  text-decoration: none;
-}
-button a:visited {
-  list-style-type: none;
-  color: white;
-  text-decoration: none;
-}
-button a:hover {
-  list-style-type: none;
-  color: white;
-  text-decoration: none;
-}
-button a:active {
-  list-style-type: none;
-  color: white;
-  text-decoration: none;
-}
-.btn-danger {
-  background-color: #D61919;
-  border-color: #D61919;
-  border-radius: 0;
-}
-.btn-danger:hover {
-  background-color: #8b0000;
-  border-color: #8b0000;
-}
-.dropdown-menu {
-  background-color: rgb(205,205,205)
-  border-color: rgb(205,205,205)
-}
 nav i{
-  position: relative;
-  float: right;
-  color: white;
-  padding-top: 10px;
-  margin-right:10px;
-  margin-left: 10px;
+  color: #777;
 }
 nav i:hover {
-	color: #8b0000;
+	color: white;
 }
 /* Home Screen */
 #aboutimg {
@@ -121,5 +80,5 @@ i.f{
   margin-left: 10px;
 }
 i.f:hover {
-	color: #8b0000;
+	color: white;
 }
