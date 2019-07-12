@@ -88,6 +88,11 @@ nav i:hover {
   text-align: left;
   display:inline;
 }
+/* Events */
+#events {
+	background-color: yellow;
+	text-align: center;
+}
 /* Footer */
 i.f{
   color: #999998;
