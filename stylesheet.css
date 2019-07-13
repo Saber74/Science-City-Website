@@ -28,7 +28,7 @@ canvas {
   height: 100%;
   position: fixed;
   background-color: #000;
-  background-image: url('');
+  background-image: linear-gradient(to bottom, #000046, #1cb5e0);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
