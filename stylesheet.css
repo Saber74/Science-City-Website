@@ -71,6 +71,7 @@ nav i:hover {
   background-color: rgba(255,255,255,0.3);
   margin-top: 30px;
   margin-bottom: 30px;
+  padding-bottom: 20px;
 }
 .row-centered {
   text-align: center;
@@ -221,8 +222,18 @@ ul.home {
 }
 
 /***************************************************************/
-
 /* Events */
+h1.events {
+	padding-top: 20px;
+}
+#daycamp, #tour, #birthday, #farmersmarket {
+  margin-top: 20px;
+  background-color: rgba(0,0,0,0.3);
+  padding: 40px;
+}
+#farmersmarket {
+  margin-bottom: 20px;
+}
 /* Footer */
 i.f{
   color: #999998;
@@ -230,5 +241,5 @@ i.f{
   margin-left: 10px;
 }
 i.f:hover {
-	color: white;
+	color: black;
 }
