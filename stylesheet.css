@@ -10,19 +10,14 @@ body{
   background-image: linear-gradient(to bottom, rgba(26, 188, 156,0.5),rgba(41, 128, 185,0.5),rgba(236, 112, 99,0.5));
 }
 */
-/* ---- reset ---- */
-
 body {
   margin: 0;
   background-color: #17182f;
 }
-
 canvas {
   display: block;
   vertical-align: bottom;
 }
-/* ---- particles.js container ---- */
-
 #particles-js{
   width: 100%;
   height: 100%;
@@ -71,21 +66,27 @@ nav i:hover {
   font-size: 1em;
   text-align: center;
 }
-.listhp li{
-  text-align: center;
-  white-space: pre-line;
+#about {
+  width: 100%;
+  background-color: rgba(255,255,255,0.3);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-#hours{
+.row-centered {
+  text-align: center;
+}
+.col-centered {
+  margin: 0 auto;
+  float: none;
+}
+h1.li {
+  text-align: center;
   color: white;
-  text-align: center;
-  font-size: 5em;
+  font-size: 2em;
 }
-#price{
-  color: white;
-  text-align: center;
-  font-size: 4em;
+ul.home {
+  list-style-type: none;
 }
-
 /* Events */
 #events {
 	background-color: yellow;
