@@ -131,17 +131,6 @@ ul.home {
   width: 100%;
 }
 
-.timeline a {
-  color: #fefefe;
-  font-weight: bold;
-  transition: all 0.25s ease-in;
-}
-
-.timeline a:hover {
-  box-shadow: 0 1px 0px 0px #fefefe;
-  transition: all 0.25s ease-in;
-}
-
 .timeline .timeline-item {
   margin-bottom: 50px;
   position: relative;
