@@ -86,6 +86,10 @@ h1.li {
 }
 ul.home {
   list-style-type: none;
+  padding: 20px;
+}
+abbr {
+  border-bottom: none;
 }
 /* Events */
 #events {
