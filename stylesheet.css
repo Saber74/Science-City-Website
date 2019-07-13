@@ -79,7 +79,7 @@ nav i:hover {
   margin: 0 auto;
   float: none;
 }
-h1.li {
+h1.home {
   text-align: center;
   color: white;
   font-size: 2em;
@@ -90,6 +90,16 @@ ul.home {
 }
 abbr {
   border-bottom: none;
+}
+#description {
+  background-color: rgba(255,255,0,0.3);
+  padding: 20px;
+}
+#photos {
+  background-color: rgba(255,0,0,0.3);
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 /* Events */
 #events {
