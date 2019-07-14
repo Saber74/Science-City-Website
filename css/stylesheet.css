@@ -5,11 +5,6 @@ Molecule Grey - (205, 205, 205)
 Bright Yellow - (255, 240, 45)
 Dark Yellow - (245, 210, 45)
 */
-/*
-body{
-  background-image: linear-gradient(to bottom, rgba(26, 188, 156,0.5),rgba(41, 128, 185,0.5),rgba(236, 112, 99,0.5));
-}
-*/
 body {
   margin: 0;
   background-color: #17182f;
@@ -225,12 +220,30 @@ ul.home {
 /* Events */
 h1.events {
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #daycamp, #tour, #birthday, #farmersmarket {
   margin-top: 20px;
   background-color: rgba(0,0,0,0.3);
   padding: 40px;
 }
+img.calendar {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+#daycampregister {
+  margin: 10px;
+}
+.btn-outline-warning {
+  color: #000000;
+  border-color: #000000;
+}
+#daycampregister:hover {
+  background-color: yellow;
+  border-color: yellow;
+  color: grey;
+} 
 #farmersmarket {
   margin-bottom: 20px;
 }
