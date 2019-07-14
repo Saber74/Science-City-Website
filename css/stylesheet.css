@@ -235,6 +235,16 @@ img.calendar {
 #daycampregister {
   margin: 10px;
 }
+img.dc {
+  width: 35%;
+  height: auto;
+  margin: 5px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+}
+hr.events {
+  color: grey;
+}
 .btn-outline-warning {
   color: #000000;
   border-color: #000000;
