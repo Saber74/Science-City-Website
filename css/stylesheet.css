@@ -282,14 +282,15 @@ hr.events {
 }
 #daycampregister{
   color: black;
-  border-color: black;
-  background-color: yellow;
+  border-color: yellow;
+  background-color: white;
 }
 #daycampregister:hover {
   background-color: yellow;
-  border-color: yellow;
-  color: grey;
+  border-color: black;
+  color: black;
 }
+
 #farmersmarket {
   margin-bottom: 20px;
 }
