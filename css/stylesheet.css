@@ -44,7 +44,7 @@ a:hover.pl {
 @media only screen and (max-width: 800px) {
   #laptopnav {
     display: none;
-  } 
+  }
 }
 @media only screen and (min-width: 801px) {
   #phonenav {
@@ -110,19 +110,8 @@ h1.home, h1.events{
 }
 ul.home{
   list-style-type: none;
-  color: white
-}
-ul.prices{
-  text-align: left;
-  display: inline
-}
-ul.hours{
-  transform: translateY(25px);
+  color: white;
   text-align: center;
-}
-#inline{
-  display: inline;
-
 }
 #description, #volunteer, #partners{
   background-color: rgba(255,255,0,0.3);
