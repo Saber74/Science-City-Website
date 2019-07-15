@@ -18,7 +18,7 @@ canvas {
   height: 100%;
   position: fixed;
   background-color: #000;
-  background-image: linear-gradient(to bottom, #000046, #1cb5e0);
+  background-image: linear-gradient(to bottom right ,#251A4F, #1E073F,#06193E);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -253,7 +253,7 @@ hr.events {
   background-color: yellow;
   border-color: yellow;
   color: grey;
-} 
+}
 #farmersmarket {
   margin-bottom: 20px;
 }
