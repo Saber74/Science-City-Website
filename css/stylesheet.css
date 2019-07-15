@@ -18,7 +18,7 @@ canvas {
   height: 100%;
   position: fixed;
   background-color: #000;
-  background-image: linear-gradient(to bottom right ,#251A4F, #1E073F,#06193E);
+  background-image: linear-gradient(to bottom right ,#251A4F, #0F695F,#15072C,#0A073E);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -40,8 +40,9 @@ nav i:hover {
   margin-right: auto;
 }
 .btn-outline-danger {
-  color: #000000;
-  border-color: #000000;
+  color: red;
+  border-color: black;
+  background-color: white;
 }
 .btn-outline-danger:hover {
   background-color: #D61919;
@@ -226,7 +227,7 @@ h1.events {
 }
 #daycamp, #tour, #birthday, #farmersmarket {
   margin-top: 20px;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(243, 127, 159,0.5);
   padding: 40px;
   color: white;
 }
@@ -252,6 +253,11 @@ hr.events {
   color: #000000;
   border-color: #000000;
 }
+#daycampregister{
+  color: black;
+  border-color: black;
+  background-color: yellow;
+}
 #daycampregister:hover {
   background-color: yellow;
   border-color: yellow;
@@ -265,11 +271,14 @@ hr.events {
 #partners {
   margin-bottom: 30px;
 }
-
-/*Visit Us*/
-#map {
-  height: 400px;  /* The height is 400 pixels */
-  width: 100%;  /* The width is the width of the web page */
+#call{
+  font-weight: 900;
+  font-size: 2em;
+  color: #66AFDB;
+/*Membership*/
+}
+#membership p,li{
+  color: White;
 }
 /* Footer */
 i.f{
