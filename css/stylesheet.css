@@ -116,7 +116,7 @@ h1.home, h1.events{
   text-align: left;
   color: white;
 }
-#description, #volunteer, #partners{
+#description, #partners, #jobs{
   background-color: rgba(255,255,0,0.3);
   padding: 20px;
   color: white;
@@ -126,6 +126,17 @@ h1.home, h1.events{
   padding: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+#volunteer{
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(255,255,0,0.3);
+}
+#volunteerjob{
+  background-color: rgba(255,255,255,0.1);
+  padding: 20px;
+  color: white;
 }
 /*****************************************************/
 .timeline .timeline-item::after, .timeline .timeline-item::before {
@@ -310,6 +321,10 @@ hr.events {
 }
 #membership p,li{
   color: White;
+}
+/*Summer jobs*/
+#jobs p,li{
+  color: white;
 }
 /* Footer */
 i.f{
