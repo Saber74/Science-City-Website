@@ -108,10 +108,13 @@ h1.home, h1.events{
   color: yellow;
   font-size: 2em;
 }
-ul.home{
-  list-style-type: none;
+#inline{
+  display: inline;
+
+}
+.price{
+  text-align: left;
   color: white;
-  text-align: center;
 }
 #description, #partners, #jobs{
   background-color: rgba(255,255,0,0.3);
