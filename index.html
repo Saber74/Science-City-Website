@@ -15,12 +15,15 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 	<link rel="stylesheet" href="css/stylesheet.css">
 
+	<!-- Scripts -->
+		<!-- Bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	
   </head>
 
   <body lang="en-us">
@@ -82,7 +85,7 @@
 	<div class="container" id="#about">  
 	  <img id="aboutimg" src="images/logo.png" alt="CSSC logo">
 	  <div class=parent>
-	    <button id="b1" type="button" class="btn btn-outline-danger child" >Visit Us</button>
+	    <button id="b1" type="button" class="btn btn-outline-danger child" ><a href="#visit">Visit Us</a></button>
 	    <button id="b2" type="button" class="btn btn-outline-danger child">Book A Tour</button>
 	  </div>
 	</div>
@@ -307,7 +310,7 @@
 		  <svg xmlns="https://upload.wikimedia.org/wikipedia/commons/5/58/White_Circle.svg" width="24" height="24" fill-rule="evenodd" clip-rule="evenodd"></svg>
 		</div>
 		<div class="timeline-content">
-		  <p class="timeline-content-date">2016</p>
+		  <p class="timeline-content-date">2014</p>
 		  <p><em>Canada South Science City</em> moved to a new location at the former J.L.Forster high school.</p>
 		</div>
 	  </div>
@@ -378,6 +381,29 @@
 	  <h1 class="events">Partners</h1>
 	</div>
 
+    <!--Visit Us-->
+	<div class="container" id="visit">
+	  <h1 class="events">Visit Us</h1>
+	  <div id="map"><h1>GOOGLE MAPS</h1></div>
+	  <div id="map"></div>
+    <script>
+	// Initialize and add the map
+	function initMap() {
+	// The location of Uluru
+	var uluru = {lat: -25.344, lng: 131.036};
+	// The map, centered at Uluru
+	var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+	// The marker, positioned at Uluru
+	var marker = new google.maps.Marker({position: uluru, map: map});
+	}
+    </script>
+	
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaJpxrBQV7S2nnYEY6kbZZXepGApzCugg&callback=initMap">
+    </script>
+	</div>
+
 	<!--Contact us-->
     <div id="contact" class="jumbotron text-center" style="margin-bottom:0">
       <p style="margin:0px;">749 Felix Avenue, Windsor, ON | 519-973-3667 | info@cssciencecity.com</p>
@@ -388,7 +414,7 @@
       </div>
       <p style="margin:0px; font-size:10px">© Canada South Science City 2019</p>
     </div>
-
+	
 </body>
 
   </body>

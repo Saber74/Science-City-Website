@@ -90,7 +90,7 @@ ul.home {
   padding: 20px;
   color: white;
 }
-#timeline, #donate{
+#timeline, #donate, #visit{
   background-color: rgba(255,0,0,0.3);
   padding: 20px;
   margin-top: 30px;
@@ -264,6 +264,12 @@ hr.events {
 /*Partners*/
 #partners {
   margin-bottom: 30px;
+}
+
+/*Visit Us*/
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
 }
 /* Footer */
 i.f{
