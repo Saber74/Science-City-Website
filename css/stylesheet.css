@@ -277,7 +277,7 @@ img.calendar {
   height: auto;
   margin: 10px;
 }
-#daycampregister {
+#daycampregister, #daycampregister {
   margin: 10px;
 }
 img.dc {
@@ -334,6 +334,13 @@ hr.events {
   border: 2px solid black;
   margin-left: auto;
   margin-right: auto;
+}
+#directions {
+  display: block;
+  margin: auto;
+  text-decoration:none;
+  color: black;
+  margin-top: 20px;
 }
 /* Footer */
 i.f{
