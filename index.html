@@ -35,7 +35,7 @@
 	<script src="scripts/particles.js"></script>
 	
 	<!-- Navigation Bar -->
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+	<nav id="laptopnav" class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
 	  
 	  <a class="navbar-brand" href=""><img src="images/logo.png" width="120" height="30"></a>
 	
@@ -81,11 +81,37 @@
 	  </ul>
 	</nav>
 
+	<div id="phonenav" class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <a href="#about" class="pl">About</a>
+          <a href="#events" class="pl">Events</a>
+          <a href="#daycamp" class="pl">Summer Day Camp</a>
+          <a href="#tour" class="pl">Group Tours</a>
+          <a href="#birthday" class="pl">Birthday Party</a>
+          <a href="#farmersmarket" class="pl">Farmer's Market</a>
+	      <a href="#volunteer" class="pl">Volunteer</a>
+          <a href="#donate" class="pl">Donate</a>
+          <a href="#membership" class="pl">Membership</a>
+          <a href="#partners" class="pl">Partners</a>
+          <a href="#Contact" class="pl">Contact</a>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+	    <a class="navbar-brand" href=""><img src="images/logo.png" width="120" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+	
+	</div>
+
     <!-- Home Page --> 
 	<div class="container" id="#about">  
 	  <img id="aboutimg" src="images/logo.png" alt="CSSC logo">
 	  <div class=parent>
-	    <button id="b1" type="button" class="btn btn-outline-danger child" ><a href="#visit">Visit Us</a></button>
+	    <button id="b1" type="button" class="btn btn-outline-danger child" ><a href="#visit" class="btn-link">Visit Us</a></button>
 	    <button id="b2" type="button" class="btn btn-outline-danger child">Book A Tour</button>
 	  </div>
 	</div>
