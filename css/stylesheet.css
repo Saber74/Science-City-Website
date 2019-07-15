@@ -276,6 +276,10 @@ hr.events {
   font-size: 2em;
   color: #66AFDB;
 }
+/*Membership*/
+#membership p,li{
+  color: White;
+}
 /* Footer */
 i.f{
   color: #999998;
