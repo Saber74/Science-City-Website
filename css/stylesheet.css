@@ -81,10 +81,21 @@ h1.home, h1.events{
   color: yellow;
   font-size: 2em;
 }
-ul.home {
+ul.home{
   list-style-type: none;
-  padding: 20px;
-  color: white;
+  color: white
+}
+ul.prices{
+  text-align: left;
+  display: inline
+}
+ul.hours{
+  transform: translateY(25px);
+  text-align: center;
+}
+#inline{
+  display: inline;
+
 }
 #description, #volunteer, #partners{
   background-color: rgba(255,255,0,0.3);
@@ -97,6 +108,7 @@ ul.home {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+#prices
 /*****************************************************/
 .timeline .timeline-item::after, .timeline .timeline-item::before {
   clear: both;
