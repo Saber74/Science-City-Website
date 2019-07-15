@@ -342,6 +342,13 @@ hr.events {
   color: black;
   margin-top: 20px;
 }
+.btn-link-dir {
+  color: black;
+}
+.btn-link-dir:hover {
+  color: white;
+  text-decoration: none;
+}
 /* Footer */
 i.f{
   color: #999998;
