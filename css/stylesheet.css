@@ -44,7 +44,7 @@ a:hover.pl {
 @media only screen and (max-width: 800px) {
   #laptopnav {
     display: none;
-  } 
+  }
 }
 @media only screen and (min-width: 801px) {
   #phonenav {
@@ -108,15 +108,14 @@ h1.home, h1.events{
   color: yellow;
   font-size: 2em;
 }
-.price{
-  text-align: left;
-  color: white;
-}
 #inline{
   display: inline;
 
 }
-
+.price{
+  text-align: left;
+  color: white;
+}
 #description, #volunteer, #partners{
   background-color: rgba(255,255,0,0.3);
   padding: 20px;
@@ -286,14 +285,15 @@ hr.events {
 }
 #daycampregister{
   color: black;
-  border-color: black;
-  background-color: yellow;
+  border-color: yellow;
+  background-color: white;
 }
 #daycampregister:hover {
   background-color: yellow;
-  border-color: yellow;
-  color: grey;
+  border-color: black;
+  color: black;
 }
+
 #farmersmarket {
   margin-bottom: 20px;
 }
