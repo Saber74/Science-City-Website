@@ -227,7 +227,7 @@ h1.events {
 }
 #daycamp, #tour, #birthday, #farmersmarket {
   margin-top: 20px;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(243, 127, 159,0.5);
   padding: 40px;
   color: white;
 }
