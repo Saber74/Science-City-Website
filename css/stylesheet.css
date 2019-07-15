@@ -326,6 +326,12 @@ hr.events {
 #jobs p,li{
   color: white;
 }
+/*Visit Us*/
+.map {
+  width: 80%;
+  height: auto;
+  border: 2px solid black;
+}
 /* Footer */
 i.f{
   color: #999998;
