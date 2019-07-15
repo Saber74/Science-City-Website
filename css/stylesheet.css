@@ -322,6 +322,10 @@ hr.events {
 #membership p,li{
   color: White;
 }
+/*Donate*/
+#donate p,li{
+  color: white;
+}
 /*Summer jobs*/
 #jobs p,li{
   color: white;
