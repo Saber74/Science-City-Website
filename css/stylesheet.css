@@ -59,13 +59,6 @@ a:hover.pl {
   margin-left: auto;
   margin-right: auto;
 }
-.btn-link {
-  color: red;
-}
-.btn-link:hover {
-  color: white;
-  text-decoration: none;
-}
 .btn-outline-danger {
   color: red;
   border-color: black;
@@ -74,7 +67,17 @@ a:hover.pl {
 .btn-outline-danger:hover {
   background-color: #D61919;
   border-color: #D61919;
+  color: white;
 }
+#visitb a{
+  color:red;
+  text-decoration: none;
+}
+#visitb a:hover{
+  color: white;
+  text-decoration: none;
+}
+
 .parent {
   display: -webkit-box;
   display: -moz-box;
@@ -343,15 +346,22 @@ hr.events {
   display: block;
   margin: auto;
   text-decoration:none;
-  color: black;
   margin-top: 20px;
+  border-color: Yellow;
+  border-width: thin;
 }
-.btn-link-dir {
-  color: black;
-}
-.btn-link-dir:hover {
+#directions:hover{
   color: white;
   text-decoration: none;
+  border-color: none;
+  border-width: thin;
+}
+#directions a{
+  color:white
+}
+#directions a:hover{
+  text-decoration: none;
+  color:white
 }
 /* Footer */
 i.f{
