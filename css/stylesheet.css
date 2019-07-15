@@ -18,7 +18,7 @@ canvas {
   height: 100%;
   position: fixed;
   background-color: #000;
-  background-image: linear-gradient(to bottom right ,#251A4F, #1E073F,#06193E);
+  background-image: linear-gradient(to bottom right ,#251A4F, #0F695F,#15072C,#0A073E);
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -40,8 +40,9 @@ nav i:hover {
   margin-right: auto;
 }
 .btn-outline-danger {
-  color: #000000;
-  border-color: #000000;
+  color: red;
+  border-color: black;
+  background-color: white;
 }
 .btn-outline-danger:hover {
   background-color: #D61919;
@@ -252,6 +253,11 @@ hr.events {
   color: #000000;
   border-color: #000000;
 }
+#daycampregister{
+  color: black;
+  border-color: black;
+  background-color: yellow;
+}
 #daycampregister:hover {
   background-color: #D61919;
   border-color: #D61919;
@@ -259,6 +265,11 @@ hr.events {
 }
 #farmersmarket {
   margin-bottom: 20px;
+}
+#call{
+  font-weight: 900;
+  font-size: 2em;
+  color: #F16D17;
 }
 /* Footer */
 i.f{
