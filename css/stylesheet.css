@@ -328,9 +328,12 @@ hr.events {
 }
 /*Visit Us*/
 .map {
+  display: block;
   width: 80%;
   height: auto;
   border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Footer */
 i.f{
