@@ -285,13 +285,8 @@ hr.events {
   color: #000000;
   border-color: #000000;
 }
-#daycampregister{
-  color: black;
-  background-color: white;
-}
-#daycampregister:hover {
-  background-color: yellow;
-  color: black;
+#daycampregister {
+  margin-bottom: 20px;
 }
 
 #farmersmarket {
