@@ -99,8 +99,9 @@ a:hover.pl {
 }
 h1.home, h1.events{
   text-align: center;
-  color: #f0ad4e;
-  font-size: 2em;
+  color: yellow;
+  font-size: 3em;
+  font-weight: 700;
 }
 #inline{
   display: inline;
