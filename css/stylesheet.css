@@ -41,12 +41,12 @@ a:hover.pl {
   color: white;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   #laptopnav {
     display: none;
   }
 }
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 851px) {
   #phonenav {
     display: none;
   }
