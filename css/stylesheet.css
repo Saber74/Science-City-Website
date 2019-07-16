@@ -285,17 +285,27 @@ hr.events {
   color: #000000;
   border-color: #000000;
 }
-#daycampregister{
-  color: black;
-  background-color: white;
-}
-#daycampregister:hover {
-  background-color: yellow;
-  color: black;
+#daycampregister:hover{
+  color: white;
 }
 
 #farmersmarket {
   margin-bottom: 20px;
+}
+/*Donate*/
+#donateb{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-decoration: none;
+}
+#donateb:hover{
+  color:white;
+  text-decoration: none;
+}
+#donate a,a:hover{
+  text-decoration: none;
 }
 
 /*Partners*/
@@ -334,20 +344,12 @@ hr.events {
   margin-right: auto;
   text-decoration:none;
   margin-top: 20px;
-  color:white;
+  color:black;
 }
 #directions:hover{
   color: white;
   text-decoration: none;
 }
-/* #directions a{
-  background-color: white;
-  color:white
-}
-#directions a:hover{
-  text-decoration: none;
-  color:white
-} */
 /* Footer */
 i.f{
   color: #999998;
