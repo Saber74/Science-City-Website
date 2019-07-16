@@ -70,11 +70,10 @@ a:hover.pl {
   color: white;
 }
 #visitb a{
-  color:red;
   text-decoration: none;
+  color: inherit;
 }
 #visitb a:hover{
-  color: white;
   text-decoration: none;
 }
 
