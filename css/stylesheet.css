@@ -287,6 +287,16 @@ hr.events {
 }
 #daycampregister:hover{
   color: white;
+#daycampregister {
+  margin-bottom: 20px;
+}
+
+#bus {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #farmersmarket {
