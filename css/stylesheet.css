@@ -271,9 +271,6 @@ img.calendar {
   height: auto;
   margin: 10px;
 }
-#daycampregister, #daycampregister {
-  margin: 10px;
-}
 img.dc {
   width: 35%;
   height: auto;
@@ -290,12 +287,10 @@ hr.events {
 }
 #daycampregister{
   color: black;
-  border-color: yellow;
   background-color: white;
 }
 #daycampregister:hover {
   background-color: yellow;
-  border-color: black;
   color: black;
 }
 
