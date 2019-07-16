@@ -335,7 +335,8 @@ hr.events {
 }
 #directions {
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   text-decoration:none;
   margin-top: 20px;
   color:white;
