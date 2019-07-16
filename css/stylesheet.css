@@ -99,7 +99,7 @@ a:hover.pl {
 }
 h1.home, h1.events{
   text-align: center;
-  color: yellow;
+  color: #f0ad4e;
   font-size: 2em;
 }
 #inline{
@@ -284,6 +284,9 @@ hr.events {
 .btn-outline-warning {
   color: #000000;
   border-color: #000000;
+}
+#daycampregister {
+  margin-bottom: 20px;
 }
 #daycampregister:hover{
   color: white;
