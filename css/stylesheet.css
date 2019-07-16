@@ -69,14 +69,6 @@ a:hover.pl {
   border-color: #D61919;
   color: white;
 }
-#visitb a{
-  text-decoration: none;
-  color: inherit;
-}
-#visitb a:hover{
-  text-decoration: none;
-}
-
 .parent {
   display: -webkit-box;
   display: -moz-box;
@@ -346,22 +338,20 @@ hr.events {
   margin: auto;
   text-decoration:none;
   margin-top: 20px;
-  border-color: Yellow;
-  border-width: thin;
+  color:white;
 }
 #directions:hover{
   color: white;
   text-decoration: none;
-  border-color: none;
-  border-width: thin;
 }
-#directions a{
+/* #directions a{
+  background-color: white;
   color:white
 }
 #directions a:hover{
   text-decoration: none;
   color:white
-}
+} */
 /* Footer */
 i.f{
   color: #999998;
