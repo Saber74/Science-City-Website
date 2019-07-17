@@ -332,6 +332,10 @@ hr.events {
   margin-left: auto;
   margin-right: auto;
 }
+.partner-pic:hover {
+  width: 38%;
+  height: auto;
+}
 /*Donate*/
 #donate p,li{
   color: white;
