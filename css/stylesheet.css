@@ -325,6 +325,13 @@ hr.events {
 #membership p,li{
   color: White;
 }
+.partner-pic {
+  display: block;
+  width: 35%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*Donate*/
 #donate p,li{
   color: white;
