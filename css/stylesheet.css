@@ -111,7 +111,7 @@ h1.home, h1.events{
   text-align: left;
   color: white;
 }
-#description, #partners, #jobs{
+#description, #jobs{
   background-color: rgba(255,255,0,0.3);
   padding: 20px;
   color: white;
@@ -322,6 +322,9 @@ hr.events {
 /*Partners*/
 #partners {
   margin-bottom: 30px;
+  background-color: rgba(255,255,255,0.3);
+  padding: 20px;
+  color: white;
 }
 #call{
   font-weight: 900;
