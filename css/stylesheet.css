@@ -391,3 +391,8 @@ i.f{
 i.f:hover {
 	color: black;
 }
+
+#about, #description, #events, #daycamp, #tour, #birthday, #farmersmarket, #volunteer, #jobs, #membership, #donate, #partners, #visit {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
