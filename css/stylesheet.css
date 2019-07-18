@@ -384,6 +384,18 @@ hr.events {
   height: auto;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 20px;
+}
+#tourb,#voluneerb{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-decoration: none;
+}
+#tourb:hover,#voluneerb:hover{
+  color:white;
+  text-decoration: none;
 }
 /* Footer */
 i.f{
