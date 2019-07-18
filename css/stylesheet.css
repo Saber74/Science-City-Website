@@ -97,6 +97,10 @@ a:hover.pl {
   margin: 0 auto;
   float: none;
 }
+#note{
+  color:white;
+  font-size: 1em;
+}
 h1.home, h1.events{
   text-align: center;
   color: yellow;
