@@ -335,13 +335,14 @@ hr.events {
   color: White;
 }
 .partner-pic {
-  width: 35%;
+  width: 20%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  margin: 2%;
 }
 .partner-pic:hover {
-  width: 38%;
+  width: 21%;
   height: auto;
 }
 /*Donate*/
