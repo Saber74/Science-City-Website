@@ -31,16 +31,11 @@ nav i{
 nav i:hover {
 	color: white;
 }
-a.pl {
-  text-decoration: none;
+.btn-dark {
   display: block;
-  text-align: center;
-  color: grey;
+  margin-right: auto;
+  margin-left: auto;  
 }
-a:hover.pl {
-  color: white;
-}
-
 @media only screen and (max-width: 850px) {
   #laptopnav {
     display: none;
