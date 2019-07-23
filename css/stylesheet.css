@@ -111,7 +111,7 @@ h1.home, h1.events{
   color: white;
 }
 .price{
-  text-align: left;
+  text-align: center;
   color: white;
 }
 #description, #jobs{
