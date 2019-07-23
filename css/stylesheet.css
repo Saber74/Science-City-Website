@@ -34,7 +34,7 @@ nav i:hover {
 .btn-dark {
   display: block;
   margin-right: auto;
-  margin-left: auto;  
+  margin-left: auto;
 }
 @media only screen and (max-width: 850px) {
   #laptopnav {
@@ -105,6 +105,10 @@ h1.home, h1.events{
 #inline{
   display: inline;
 
+}
+.hours{
+  text-align: center;
+  color: white;
 }
 .price{
   text-align: left;
