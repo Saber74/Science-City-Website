@@ -273,6 +273,12 @@ h1.events {
   padding: 40px;
   color: white;
 }
+a.events {
+  color: yellow;
+}
+a.events:hover {
+  color: grey;
+}
 img.calendar {
   width: 100%;
   height: auto;
