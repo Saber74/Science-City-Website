@@ -96,6 +96,24 @@ nav i:hover {
   color:white;
   font-size: 1em;
 }
+#comic{
+  font-size: 20px;
+  color: #66AFDB;
+  font-weight: 800;
+  padding-top:25px;
+  padding-bottom:20px;
+  text-align: center;
+}
+#comiclogo{
+  max-width: 80%;
+}
+#row{
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 5px;
+}
 h1.home, h1.events{
   text-align: center;
   color: yellow;
@@ -115,7 +133,7 @@ h1.home, h1.events{
   color: white;
 }
 .left{
-  text-align: left; 
+  text-align: left;
 }
 #description, #jobs{
   background-color: rgba(255,255,0,0.3);
