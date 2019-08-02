@@ -111,9 +111,6 @@ nav i:hover {
   max-width: 85%;
   height: auto;
 }
-#row{
-  display: flex;
-}
 .column {
   flex: 50%;
   padding: 5px;
