@@ -5,6 +5,14 @@ Molecule Grey - (205, 205, 205)
 Bright Yellow - (255, 240, 45)
 Dark Yellow - (245, 210, 45)
 */
+.collapse{
+  background-color: #ffbb33;
+  color: White;
+}
+.card{
+  background-color: #33b5e5;
+  color: White;
+}
 body {
   margin: 0;
   background-color: #17182f;
