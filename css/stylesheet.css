@@ -7,11 +7,12 @@ Dark Yellow - (245, 210, 45)
 */
 .collapse{
   background-color: #ffbb33;
-  color: White;
+  color: #5f0f40;
 }
 .card{
-  background-color: #33b5e5;
+  background-color: #e9f7ca;
   color: White;
+  text-decoration: none;
 }
 body {
   margin: 0;
